@@ -22,7 +22,7 @@ import com.example.course.repositories.ProductRepository;
 import com.example.course.repositories.UserRepository;
 
 @Configuration
-@Profile("dev")
+@Profile("test")
 public class TestConfig implements CommandLineRunner{
 	
 	@Autowired

@@ -19,7 +19,7 @@ import com.example.course.entities.User;
 import com.example.course.services.UserService;
 
 @RestController
-@RequestMapping( value = "/users")
+@RequestMapping(value = "/users")
 public class UserResource {
 	
 	@Autowired
@@ -64,7 +64,5 @@ public class UserResource {
 		obj = service.update(id, obj);
 		return ResponseEntity.ok().body(obj);
 	}
-	
-	
 	
 }
